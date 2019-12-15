@@ -1,0 +1,25 @@
+{
+    "name": "tucnx/website",
+    "description": "Simple",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^7.0@dev",
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+        "Tucnx\\Website\\" : "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TucIT",
+            "email": "xuantucit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
