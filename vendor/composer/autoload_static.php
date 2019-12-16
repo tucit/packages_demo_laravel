@@ -4,97 +4,97 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3b8bd6477419e83a3a287397c2d3884e
+class ComposerStaticInit2858232ac4433a0c078d7e0a438a08a3
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/vendor' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/vendor' . '/illuminate/support/helpers.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'v' =>
+        'v' => 
         array (
             'voku\\tests\\' => 11,
             'voku\\' => 5,
         ),
-        'S' =>
+        'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Component\\Translation\\' => 30,
         ),
-        'P' =>
+        'P' => 
         array (
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Container\\' => 14,
         ),
-        'I' =>
+        'I' => 
         array (
             'Illuminate\\Support\\' => 19,
             'Illuminate\\Contracts\\' => 21,
         ),
-        'D' =>
+        'D' => 
         array (
             'Doctrine\\Common\\Inflector\\' => 26,
         ),
-        'C' =>
+        'C' => 
         array (
             'Carbon\\' => 7,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'voku\\tests\\' =>
+        'voku\\tests\\' => 
         array (
-            0 => __DIR__ . '/vendor' . '/voku/portable-ascii/tests',
+            0 => __DIR__ . '/..' . '/voku/portable-ascii/tests',
         ),
-        'voku\\' =>
+        'voku\\' => 
         array (
-            0 => __DIR__ . '/vendor',
+            0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' =>
+        'Symfony\\Polyfill\\Mbstring\\' => 
         array (
-            0 => __DIR__ . '/vendor',
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Contracts\\Translation\\' =>
+        'Symfony\\Contracts\\Translation\\' => 
         array (
-            0 => __DIR__ . '/vendor',
+            0 => __DIR__ . '/..' . '/symfony/translation-contracts',
         ),
-        'Symfony\\Component\\Translation\\' =>
+        'Symfony\\Component\\Translation\\' => 
         array (
-            0 => __DIR__ . '/vendor',
+            0 => __DIR__ . '/..' . '/symfony/translation',
         ),
-        'Psr\\SimpleCache\\' =>
+        'Psr\\SimpleCache\\' => 
         array (
-            0 => __DIR__ . '/vendor' . '/psr/simple-cache/src',
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
         ),
-        'Psr\\Container\\' =>
+        'Psr\\Container\\' => 
         array (
-            0 => __DIR__ . '/vendor' . '/psr/container/src',
+            0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'Illuminate\\Support\\' =>
+        'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/vendor',
+            0 => __DIR__ . '/..' . '/illuminate/support',
         ),
-        'Illuminate\\Contracts\\' =>
+        'Illuminate\\Contracts\\' => 
         array (
-            0 => __DIR__ . '/vendor',
+            0 => __DIR__ . '/..' . '/illuminate/contracts',
         ),
-        'Doctrine\\Common\\Inflector\\' =>
+        'Doctrine\\Common\\Inflector\\' => 
         array (
-            0 => __DIR__ . '/vendor' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
         ),
-        'Carbon\\' =>
+        'Carbon\\' => 
         array (
-            0 => __DIR__ . '/vendor' . '/nesbot/carbon/src/Carbon',
+            0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3b8bd6477419e83a3a287397c2d3884e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3b8bd6477419e83a3a287397c2d3884e::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit2858232ac4433a0c078d7e0a438a08a3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit2858232ac4433a0c078d7e0a438a08a3::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
