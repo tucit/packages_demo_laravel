@@ -7,7 +7,7 @@ class WebsiteServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        var_dump('I created package successfully !!');
+        dd('I created package successfully !!');
     }
 
     public function register()
@@ -15,3 +15,4 @@ class WebsiteServiceProvider extends ServiceProvider
 
     }
 }
+

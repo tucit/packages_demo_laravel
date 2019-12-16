@@ -1,0 +1,10 @@
+{
+    "name": "tucit/website",
+    "authors": [
+        {
+            "name": "TucIT",
+            "email": "xuantucit@gmail.com"
+        }
+    ],
+    "require": {}
+}
